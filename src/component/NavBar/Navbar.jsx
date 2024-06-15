@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='navbar'>
       <img src={assets.logo} alt="logo" className='logo'/>
       <ul className='navbar-menu'>
-        <li onClick={()=>{setMenu("Home")}} className={menu==="Home"?"active":""}><Link to="/home">Home</Link></li>
+        <li onClick={()=>{setMenu("Home")}} className={menu==="Home"?"active":""}> <Link to="/">Home</Link></li>
         <li onClick={()=>{setMenu("Review")}} className={menu==="Review"?"active":""}><Link to="/review">Review</Link></li>
 
         

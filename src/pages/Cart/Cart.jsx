@@ -3,8 +3,8 @@ import './Cart.css'
 
 function Cart() {
   return (
-    <div>
-      
+    <div id='cart'>
+      Cart
     </div>
   )
 }

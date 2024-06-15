@@ -1,0 +1,8 @@
+.footer_container{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-top: 20px;
+}

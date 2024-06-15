@@ -4,7 +4,7 @@ import { menu_list } from '../../assets/assets'
 
 function ExploreMenu() {
   return (
-    <div className='explore-menu'>
+    <div className='explore-menu' id='explore_menu'>
       <h2>What would you like to order</h2>
       <div className='explore-menu-food'>
         {

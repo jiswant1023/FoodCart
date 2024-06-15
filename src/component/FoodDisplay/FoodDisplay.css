@@ -1,0 +1,21 @@
+.food_list_items{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.food_list_item_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.food_list_item_view{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+#food_list_item_header_input{
+    width: 50%;
+    padding: 0px 5px;
+}

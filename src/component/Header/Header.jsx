@@ -7,7 +7,9 @@ function Header() {
       <div className='header-contents'>
         <h1>Are You Starving?</h1>
         <p>Within a few clicks, find meals that are accessible near you</p>
-        <button>View More</button>
+        <a href="#food_list_items">
+          <button>View More</button>
+        </a>
       </div>
 
       <div className='video-container'>
